@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Website</title>
 </head>
 <body>
@@ -50,10 +51,11 @@
     <main>
         <!-- 1 -->
         <section class="hero">
-            <div class="container">
-                    <h1 class="hero-h1">Ефективні рішення для вашого бізнесу</h1>
-                    <button data-modal-open class="hero-button" type="button">Замовити послугу</button>
+                <div class="container-hero">
+                    <h1 class="container-hero__title">Ефективні рішення для вашого бізнесу</h1>
+                    <button data-modal-open class="container-hero__button" type="button">Замовити послугу</button>
                 </div>
+
                 <!--  Модальне вікно -->
                 <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
@@ -172,24 +174,24 @@
          
 
         <!-- 3 -->
-        <section class="section about">
-            <div class="container">
-                    <h2 class="title">
+        <section class="section-about">
+            <div class="container-about">
+                    <h2 class="container-about__title">
                         Чим ми займаємося
                     </h2>
 
-                    <ul class="list about-list">
-                        <li>
-                            <img src="images/box_1.jpg" alt="Service 1" width="370" />
-                            <p class="thumb-label">Десктопні додатки</p>
+                    <ul class="aboutlist">
+                        <li class="aboutlist-element">
+                            <img class="aboutlist-element__image" src="images/box_1.jpg" alt="Service 1" />
+                            <p class="aboutlist-element__label">Десктопні додатки</p>
                         </li>
-                        <li>
-                            <img src="images/box_2.jpg" alt="Service 2" width="370" />
-                            <p class="thumb-label">Мобільні додатки</p>
+                        <li class="aboutlist-element">
+                            <img class="aboutlist-element__image" src="images/box_2.jpg" alt="Service 2" />
+                            <p class="aboutlist-element__label">Мобільні додатки</p>
                         </li>
-                        <li>
-                            <img src="images/box_3.jpg" alt="Service 3" width="370" />
-                            <p class="thumb-label">Дизайнерські рішення</p>
+                        <li class="aboutlist-element">
+                            <img class="aboutlist-element__image" src="images/box_3.jpg" alt="Service 3" />
+                            <p class="aboutlist-element__label">Дизайнерські рішення</p>
                         </li>
                     </ul>
             </div>        
