@@ -4,14 +4,14 @@
     display: flex;
     justify-content: center;
     list-style: none;
+
+        li {
+            width: 170px;
+            height: 92px;
+            margin-right: 30px;
+        }
 }
 
-.list-clients li {
-    width: 170px;
-    height: 92px;
-    margin-right: 30px;
-    
-}
 
 .clients-link {
     height: 100%;
