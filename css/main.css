@@ -575,11 +575,7 @@ address {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-clients .list-clients-link:focus {
-  border-color: var(--accent-color);
-  fill: #2196F3;
-}
-.list-clients .list-clients-link:hover {
+.list-clients-link:focus, .list-clients-link:hover {
   border-color: var(--accent-color);
   fill: #2196F3;
 }
