@@ -554,8 +554,10 @@ address {
   height: 92px;
   margin-right: 30px;
 }
-
-.clients-link {
+.list-clients li:last-child {
+  margin-right: 0px;
+}
+.list-clients-link {
   height: 100%;
   width: 100%;
   fill: #AFB1B8;
@@ -573,19 +575,13 @@ address {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients-link:focus {
+.list-clients .list-clients-link:focus {
   border-color: var(--accent-color);
   fill: #2196F3;
 }
-
-.clients-link:hover {
+.list-clients .list-clients-link:hover {
   border-color: var(--accent-color);
   fill: #2196F3;
-}
-
-.list-clients li:last-child {
-  margin-right: 0px;
 }
 
 .feature-image {
